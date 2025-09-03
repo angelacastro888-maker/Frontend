@@ -2,7 +2,7 @@
   const el = sel => document.querySelector(sel)
   const els = sel => Array.from(document.querySelectorAll(sel))
   const state = { editingId: null, apiBase: localStorage.getItem('https://backend-172.onrender.com') || '' }
-
+//
   const inputId = el('#id')
   const inputTitulo = el('#titulo')
   const inputPonente = el('#ponente')
