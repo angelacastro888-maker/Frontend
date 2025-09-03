@@ -21,7 +21,7 @@
 
   function setApiBase(value) {
     state.apiBase = (value || '').replace(/\/$/, '')
-    localStorage.setItem('API_BASE', state.apiBase)
+    localStorage.setItem('https://backend-172.onrender.com', state.apiBase)
     apiBaseInput.value = state.apiBase
   }
 
